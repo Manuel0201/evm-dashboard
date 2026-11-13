@@ -10,8 +10,8 @@ Cada fase termina con: pruebas y linter en verde, commit aprobado por el usuario
 |---|------|------|--------|--------|
 | 0 | Repo y Gitflow | `feature/project-setup` | 15 min | HECHA |
 | 1 | Entender EVM (a mano) y decisiones de negocio | (sin código) | 25 min | HECHA |
-| 2 | Cálculos EVM puros + pruebas unitarias | `feature/evm-calculations` | 35 min | EN CURSO |
-| 3 | Base de datos, modelos y script de inicialización | `feature/database-models` | 25 min | PENDIENTE |
+| 2 | Cálculos EVM puros + pruebas unitarias | `feature/evm-calculations` | 35 min | HECHA |
+| 3 | Base de datos, modelos y script de inicialización | `feature/database-models` | 25 min | EN CURSO |
 | 4 | API de proyectos y actividades + consolidado + pruebas de integración | `feature/projects-activities-api` | 45 min | PENDIENTE |
 | 5 | Documentación OpenAPI en `/api-docs` | `feature/openapi-docs` | 10 min | PENDIENTE |
 | 6 | Frontend: tabla, consolidado, semáforo CPI/SPI, gráfica | `feature/frontend-dashboard` | 50 min | PENDIENTE |
@@ -82,3 +82,4 @@ Lo que NO se recorta: cálculos con pruebas, API, Gitflow con PR y release, READ
 4. Porcentajes (prompt #27): escala 0–100 en API, base de datos y pantalla; validación entre 0 y 100; se divide entre 100 con una constante con nombre. Coincide con la recomendación de la IA.
 5. Indicadores (prompt #28): se calculan al vuelo a partir de los datos base; no se guardan en la base de datos. Coincide con la recomendación de la IA.
 6. Arquitectura (prompt #33, decisión independiente: el usuario dio primero su idea en el prompt #32 y luego eligió entre alternativas): tres capas, routers → servicios → cálculos (funciones puras por indicador), más modelos para la base de datos. Coincide con la recomendación de la IA.
+7. Pruebas contra la base de datos (prompt #40): PostgreSQL de pruebas (evm_db_test), con el mismo script de inicialización que producción; no SQLite ni mocks. Coincide con la recomendación de la IA.
