@@ -142,3 +142,71 @@ Español
 ## Prompt #17 - 2026-11-12 19:24
 
 Aprobados
+
+## Prompt #18 - 2026-11-12 19:26
+
+Sí, público
+
+## Prompt #19 - 2026-11-12 19:27
+
+Aprobado
+
+## Prompt #20 - 2026-11-12 19:29
+
+Sí, merge
+
+## Prompt #21 - 2026-11-12 19:34
+
+Cómo funciona el flujo. main es producción y develop es integraciónes la revisión antes de promover un bot. la dos no se
+
+## Prompt #22 - 2026-11-12 19:37
+
+Que cada cambio quede revisado y se pueda deshacer sin tocar develop - se pide pr para porqe es una buena practica y permite validar y controlar mejor los cambios
+
+## Prompt #23 - 2026-11-12 19:43
+
+PV=500, EV=400, CV=-200, SV=-100, CPI=0.67, SPI=0.8 sobrepresupuesto y atrasado
+
+## Prompt #24 - 2026-11-12 19:45
+
+EAC=1500, VAC=-500  cuanto me voy a terminar pasando
+
+## Prompt #25 - 2026-11-12 19:46
+
+Sumar y recalcular
+
+## Prompt #26 - 2026-11-12 19:47
+
+Valor vacío (null)
+
+## Prompt #27 - 2026-11-12 19:49
+
+Decimal y 0–100
+
+## Prompt #28 - 2026-11-12 19:49
+
+Al vuelo
+
+## Prompt #29 - 2026-11-12 19:50
+
+que quieres que haga no entiendo
+
+## Prompt #30 - 2026-11-12 19:54
+
+PV=600, EV=900, CPI=1.125, SPI=1.5 no se las respuestas porque no se las definiciiones
+
+## Prompt #31 - 2026-11-12 19:57
+
+Bajo presupuesto y adelantado; con AC=0 devuelve null
+
+## Prompt #32 - 2026-11-12 20:00
+
+Ok, lo mejor es hacer lógica separada para un fácil mantenimiento y fácil entendimiento también de las situaciones. Em, La lógica de negocio por cada indicador puede ser independiente, teniendo en cuenta que si cambian algún punto, esto puede afectar a los demás. Entonces es mejor mantener la lógica, las fórmulas por separado. Las pondría, ¿dónde las pondría? Ni siquiera sé dónde se ponen las cosas. O sea, estoy tan perdido que no sé ni dónde van las cosas, dónde va cada cosa.
+
+## Prompt #33 - 2026-11-12 20:02
+
+Tres capas
+
+## Prompt #34 - 2026-11-12 20:06
+
+Aprobados
