@@ -11,8 +11,8 @@ Cada fase termina con: pruebas y linter en verde, commit aprobado por el usuario
 | 0 | Repo y Gitflow | `feature/project-setup` | 15 min | HECHA |
 | 1 | Entender EVM (a mano) y decisiones de negocio | (sin código) | 25 min | HECHA |
 | 2 | Cálculos EVM puros + pruebas unitarias | `feature/evm-calculations` | 35 min | HECHA |
-| 3 | Base de datos, modelos y script de inicialización | `feature/database-models` | 25 min | EN CURSO |
-| 4 | API de proyectos y actividades + consolidado + pruebas de integración | `feature/projects-activities-api` | 45 min | PENDIENTE |
+| 3 | Base de datos, modelos y script de inicialización | `feature/database-models` | 25 min | HECHA |
+| 4 | API de proyectos y actividades + consolidado + pruebas de integración | `feature/projects-activities-api` | 45 min | EN CURSO |
 | 5 | Documentación OpenAPI en `/api-docs` | `feature/openapi-docs` | 10 min | PENDIENTE |
 | 6 | Frontend: tabla, consolidado, semáforo CPI/SPI, gráfica | `feature/frontend-dashboard` | 50 min | PENDIENTE |
 | 7 | Verificar que los números tienen sentido (cálculos a mano vs sistema) | (sin código) | 15 min | PENDIENTE |

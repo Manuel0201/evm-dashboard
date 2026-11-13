@@ -1,6 +1,8 @@
 """Conexión a PostgreSQL. La dirección (con la contraseña) se lee del archivo .env."""
 
 import os
+from collections.abc import Iterator
+from functools import lru_cache
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -34,3 +36,15 @@ def crear_motor(url: str) -> Engine:
 def crear_fabrica_sesiones(motor: Engine) -> sessionmaker[Session]:
     """Crea la fábrica de sesiones: cada sesión es una 'conversación' con la base."""
     return sessionmaker(bind=motor)
+
+
+@lru_cache
+def obtener_fabrica_sesiones() -> sessionmaker[Session]:
+    """Crea la fábrica de sesiones una sola vez y la reutiliza."""
+    return crear_fabrica_sesiones(crear_motor(obtener_url_base_de_datos()))
+
+
+def obtener_sesion() -> Iterator[Session]:
+    """Entrega una sesión a cada petición del API y la cierra al terminar."""
+    with obtener_fabrica_sesiones()() as sesion:
+        yield sesion

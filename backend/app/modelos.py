@@ -6,11 +6,7 @@ from sqlalchemy import ForeignKey, Numeric, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.base_de_datos import Base
-
-LONGITUD_NOMBRE = 150
-DIGITOS_DINERO = 14
-DIGITOS_PORCENTAJE = 5
-DECIMALES = 2
+from app.constantes import DECIMALES, DIGITOS_DINERO, DIGITOS_PORCENTAJE, LONGITUD_NOMBRE
 
 
 class Proyecto(Base):
