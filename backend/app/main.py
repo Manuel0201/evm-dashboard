@@ -7,7 +7,7 @@ from app.routers import actividades, proyectos
 from app.servicios.errores import RecursoNoEncontradoError
 
 RUTA_DOCUMENTACION = "/api-docs"
-VERSION_API = "1.0.0"
+VERSION_API = "1.0.1"
 DESCRIPCION_API = """
 API REST para gestionar proyectos y actividades y calcular automáticamente los indicadores
 de **Valor Ganado (EVM)**.
