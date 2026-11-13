@@ -242,3 +242,23 @@ Ya los ejecuté
 ## Prompt #42 - 2026-11-12 20:39
 
 Aprobados
+
+## Prompt #43 - 2026-11-12 20:40
+
+Sí, sube y crea
+
+## Prompt #44 - 2026-11-12 20:41
+
+Sí, merge
+
+## Prompt #45 - 2026-11-12 20:44
+
+1. lo rechaza 2. se borran  en cascada y la decicion es para no dejar remanentes?
+
+## Prompt #46 - 2026-11-12 20:48
+
+Aprobado
+
+## Prompt #47 - 2026-11-12 20:51
+
+Aprobados
