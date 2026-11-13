@@ -48,6 +48,20 @@ class ProyectoSalida(BaseModel):
 
 
 class ActividadEntrada(BaseModel):
+    model_config = ConfigDict(
+        json_schema_extra={
+            "examples": [
+                {
+                    "nombre": "Desarrollar el bot de facturación",
+                    "presupuesto_total": 1000,
+                    "porcentaje_planificado": 50,
+                    "porcentaje_real": 40,
+                    "costo_real": 600,
+                }
+            ]
+        }
+    )
+
     nombre: Nombre = Field(description="Nombre de la actividad", examples=["Desarrollar el bot"])
     presupuesto_total: Dinero = Field(description="BAC: presupuesto total planificado")
     porcentaje_planificado: Porcentaje = Field(
