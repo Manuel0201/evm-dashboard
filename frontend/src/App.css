@@ -1,0 +1,253 @@
+:root {
+  --fondo: #f5f7fa;
+  --superficie: #ffffff;
+  --borde: #d8dee6;
+  --texto: #1c2430;
+  --texto-suave: #5f6b7a;
+  --primario: #2b59d6;
+  --verde: #1f8a4c;
+  --verde-fondo: #e3f5ea;
+  --amarillo: #8a5a00;
+  --amarillo-fondo: #fff3d1;
+  --rojo: #b42318;
+  --rojo-fondo: #fde4e1;
+  --gris: #5f6b7a;
+  --gris-fondo: #eceff3;
+}
+
+.aplicacion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 4px 0 0;
+  color: var(--texto-suave);
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+}
+
+h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+button {
+  font: inherit;
+  padding: 6px 12px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  background: var(--superficie);
+  color: var(--texto);
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: var(--gris-fondo);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.primario {
+  background: var(--primario);
+  border-color: var(--primario);
+  color: #ffffff;
+}
+
+button.primario:hover:not(:disabled) {
+  background: #1f46ad;
+}
+
+button.peligro {
+  color: var(--rojo);
+}
+
+.selector-proyecto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.selector-proyecto select {
+  font: inherit;
+  padding: 6px 10px;
+  min-width: 240px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+}
+
+.error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--rojo);
+  border-radius: 6px;
+  background: var(--rojo-fondo);
+  color: var(--rojo);
+}
+
+.vacio {
+  color: var(--texto-suave);
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.tarjetas-indices {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--superficie);
+}
+
+.tarjeta-titulo {
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
+.tarjeta-valor {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tarjeta-indice .tarjeta-valor {
+  font-size: 2rem;
+}
+
+.semaforo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.semaforo-punto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.semaforo-verde {
+  color: var(--verde);
+  background: var(--verde-fondo);
+}
+
+.semaforo-amarillo {
+  color: var(--amarillo);
+  background: var(--amarillo-fondo);
+}
+
+.semaforo-rojo {
+  color: var(--rojo);
+  background: var(--rojo-fondo);
+}
+
+.semaforo-gris {
+  color: var(--gris);
+  background: var(--gris-fondo);
+}
+
+.tabla-contenedor {
+  overflow-x: auto;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--superficie);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  padding: 8px 10px;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--borde);
+}
+
+th {
+  background: var(--gris-fondo);
+  font-weight: 600;
+}
+
+th:first-child,
+td.texto {
+  text-align: left;
+}
+
+td.texto button + button {
+  margin-left: 6px;
+}
+
+.formulario {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--superficie);
+}
+
+.campos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+.campo input {
+  font: inherit;
+  padding: 6px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  color: var(--texto);
+}
+
+.acciones-formulario {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
