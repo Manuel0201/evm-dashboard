@@ -312,3 +312,35 @@ Ok, terminemos como veníamos y luego me gustaría con un login completo. Si que
 ## Prompt #59 - 2026-11-12 21:18
 
 Aprobados
+
+## Prompt #60 - 2026-11-12 21:18
+
+Sí, sube y crea
+
+## Prompt #61 - 2026-11-12 21:19
+
+Sí, merge
+
+## Prompt #62 - 2026-11-12 21:21
+
+El problema es que el CPI no se ve en rojo. Lo que se ve en rojo es lo que dice sobrepuesto. ¿Y de dónde sale ese texto? Ese texto sale de los cálculos. Es decir, de la función de cálculos. Editas una actividad y guardas. ¿Cómo se enteran las tarjetas de indicadores y la gráfica de que los números cambiaron? No sé.
+
+## Prompt #63 - 2026-11-12 21:23
+
+Pero el frontend solo tendría que modificar el cálculo. Y ya.
+
+## Prompt #64 - 2026-11-12 21:24
+
+El, en evm.py, ahí está
+
+## Prompt #65 - 2026-11-12 21:25
+
+Esa pregunta vamos a darlo para después. Quiero terminar la aplicación primero Quiero terminar la aplicación primero.
+
+## Prompt #66 - 2026-11-12 21:27
+
+Digo terminal, cuando digo terminar la aplicación ahora me refiero a continuar con las fases
+
+## Prompt #67 - 2026-11-12 21:28
+
+Aprobados

@@ -14,9 +14,9 @@ Cada fase termina con: pruebas y linter en verde, commit aprobado por el usuario
 | 3 | Base de datos, modelos y script de inicialización | `feature/database-models` | 25 min | HECHA |
 | 4 | API de proyectos y actividades + consolidado + pruebas de integración | `feature/projects-activities-api` | 45 min | HECHA |
 | 5 | Documentación OpenAPI en `/api-docs` | `feature/openapi-docs` | 10 min | HECHA |
-| 6 | Frontend: tabla, consolidado, semáforo CPI/SPI, gráfica | `feature/frontend-dashboard` | 50 min | EN CURSO |
-| 7 | Verificar que los números tienen sentido (cálculos a mano vs sistema) | (sin código) | 15 min | PENDIENTE |
-| 8 | Release: `release/1.0.0`, merge a `main`, tag | `release/1.0.0` | 15 min | PENDIENTE |
+| 6 | Frontend: tabla, consolidado, semáforo CPI/SPI, gráfica | `feature/frontend-dashboard` | 50 min | HECHA |
+| 7 | Verificar que los números tienen sentido (cálculos a mano vs sistema) | (sin código) | 15 min | APLAZADA (el usuario la dejó para después, prompt #65; debe hacerse antes de cerrar AI_PROCESS.md) |
+| 8 | Release: `release/1.0.0`, merge a `main`, tag | `release/1.0.0` | 15 min | EN CURSO |
 | 9 | README, AI_PROCESS.md, guion del video, checklist final | `feature/documentation` | 60 min | PENDIENTE |
 
 ## Detalle por fase
