@@ -210,3 +210,35 @@ Tres capas
 ## Prompt #34 - 2026-11-12 20:06
 
 Aprobados
+
+## Prompt #35 - 2026-11-12 20:06
+
+Sí, sube y crea PR
+
+## Prompt #36 - 2026-11-12 20:09
+
+Sí, merge
+
+## Prompt #37 - 2026-11-12 20:11
+
+No sé la respuesta, explícame
+
+## Prompt #38 - 2026-11-12 20:28
+
+1.1666, las funciones se pueden reutilizar y simplifica el codigo
+
+## Prompt #39 - 2026-11-12 20:31
+
+Ya lo creé
+
+## Prompt #40 - 2026-11-12 20:34
+
+PostgreSQL de pruebas
+
+## Prompt #41 - 2026-11-12 20:37
+
+Ya los ejecuté
+
+## Prompt #42 - 2026-11-12 20:39
+
+Aprobados
